@@ -9,15 +9,18 @@
 
 ## Overview
 
+This project was my take on doing landing page without any external help, no googling, no cahtgpt using, only what i know how things work.
+It is not perfect for sure, but i am proud that i made it without any external help.
+
 ### The challenge
 
 Users should be able to:
 
-- Scroll through landing page , see hover effects, and add responsiveness for small screen
+- Scroll the page, see three different activities to do in VIlnius city
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./Images/screenshot.png)
 
 ### Links
 
@@ -27,10 +30,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
 - CSS Flex box
 
 ### What I learned
 
-This is one of the practise material, building semantic HTML5, also main objective was to make it responsive.
-This is to be continued project, later i`ll add JavaScript functionality.
+This is one of the practise material, building semantic HTML5, also main objective not to use any help from outside
