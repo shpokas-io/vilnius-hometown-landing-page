@@ -9,6 +9,8 @@
 
 ## Overview
 
+The idea of this project kicked in out of love for my city - Vilnius <3
+
 This project was my take on doing landing page without any external help, no googling, no cahtgpt using, only what i know how things work.
 It is not perfect for sure, but i am proud that i made it without any external help.
 
