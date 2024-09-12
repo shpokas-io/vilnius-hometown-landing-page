@@ -17,7 +17,6 @@ body {
   color: white;
   text-align: center;
   font-family: Arial, sans-serif;
-
 }
 
 .hero-section {
@@ -64,12 +63,17 @@ body {
   padding: 50px 0;
 }
 
-.activities-section h3 {
-  font-size: 2rem;
-  margin-bottom: 30px;
+.action-wrapper-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#waterpark-img {
+.activities-section h3 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.img-wrapper {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -79,5 +83,43 @@ body {
 .activities-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 200px;
+}
+
+.activities-container h4 {
+  margin-bottom: 10px;
+}
+
+.guide-section {
+  background-color: white;
+  color: var(--clr-text-background-blue-dark);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.guide-card img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.guide-card {
+  background-color: var(--clr-activities-guide-background);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+.text-wrapper h3 {
+  margin-bottom: 10px;
+}
+
+.text-wrapper p {
+  margin-bottom: 10px;
 }
