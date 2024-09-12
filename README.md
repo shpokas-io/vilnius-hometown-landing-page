@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Grid-training-live](https://grid-training-session.netlify.app)
+- Live Site URL: [Vilnius-landing-page](https://vilniushometown-landing-page.netlify.app)
 
 ### Built with
 
