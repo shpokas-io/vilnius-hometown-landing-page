@@ -1,0 +1,83 @@
+:root {
+  /* Colors */
+
+  --clr-activities-bck-light: #F1FAEE;
+  --clr-text-background-blue-dark: #1D3557;
+  --clr-text-background-blue-light: #457B9D;
+  --clr-activities-guide-background: #A8DADC;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Images/city-view.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  padding: 5px 20px;
+  background-color: var(--clr-text-background-blue-dark);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  background-color: var(--clr-text-background-blue-light);
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.activities-section {
+  background-color: var(--clr-activities-bck-light);
+  color: var(--clr-text-background-blue-dark);
+  padding: 50px 0;
+}
+
+.activities-section h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#waterpark-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.activities-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
